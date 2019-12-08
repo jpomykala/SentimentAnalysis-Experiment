@@ -1,10 +1,18 @@
-# Getting Started
+# Sentiment Analysis Experiment
 
-Article: http://www.hausmanmarketingletter.com/sad-state-sentiment-analysis/
+I found an article about sentiment analysis.
 
-"Recent experiments suggest sentiment analysis data is LESS accurate than a coin toss (accuracy 50%). That’s really scary if your brand makes strategic decisions based on sentiment analysis."
+http://www.hausmanmarketingletter.com/sad-state-sentiment-analysis/
 
-Used dataset: https://ai.stanford.edu/~amaas/data/sentiment/
+and this statement:
+
+> "Recent experiments suggest sentiment analysis data is LESS accurate than a coin toss (accuracy 50%). That’s really scary if your brand makes strategic decisions based on sentiment analysis."
+
+made me curious. I decided to quickly run some tests on my own. 
+
+## Test dataset
+I used IMDB reviews from Stanford library.
+https://ai.stanford.edu/~amaas/data/sentiment/
 
 
 ## Tech stack:
@@ -15,7 +23,7 @@ Used dataset: https://ai.stanford.edu/~amaas/data/sentiment/
 
 ## Results:
 
-Algorithm was right in ~50% cases.
+Algorithm was right in ~50% cases. I will try to improve this scores in future.
 
 ![results](https://github.com/jpomykala/SentimentAnalysis-Experiment/blob/master/images/results.png?raw=true)
 
@@ -27,4 +35,5 @@ Algorithm was right in ~50% cases.
 ## How to load different data?
 Check `DataReader.java` class. You can setup your own directories to positivie and negative reviews.
 
-
+## Contribution 
+If you think I made something wrong or you know how I can improve the results let me know or make a PR :) 
