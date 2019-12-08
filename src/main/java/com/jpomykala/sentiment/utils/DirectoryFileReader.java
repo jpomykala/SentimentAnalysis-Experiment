@@ -21,10 +21,7 @@ public class DirectoryFileReader {
       List<Path> pathList = paths
               .filter(Files::isRegularFile)
               .collect(Collectors.toList());
-
       log.info("Found {} files", pathList.size());
-
-
       List<String> readFiles = pathList.stream()
               .map(p -> {
                 try {
