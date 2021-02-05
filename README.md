@@ -1,6 +1,6 @@
 # Sentiment Analysis Experiment
 
-I found an article about sentiment analysis.
+I found the article about sentiment analysis.
 
 http://www.hausmanmarketingletter.com/sad-state-sentiment-analysis/
 
@@ -23,7 +23,7 @@ https://ai.stanford.edu/~amaas/data/sentiment/
 
 ## Results:
 
-Algorithm was right in ~50% cases. I will try to improve this scores in future.
+Algorithm was right in ~50% cases, so the statement from the article was right 😉 Maybe I will try to improve this scores in the future.
 
 ![results](https://github.com/jpomykala/SentimentAnalysis-Experiment/blob/master/images/results.png?raw=true)
 
